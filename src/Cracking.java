@@ -3,9 +3,11 @@ import arrays_and_strings.*;
 public class Cracking {
 
 	public static void main(String[] args) {
-	
-		Problem1_b p1 = new Problem1_b(); 
-		String str = "Doese";
-		System.out.println(p1.hasUniqueChars(str));
+		
+		char input[] = "Mr John Smith      ".toCharArray(); 
+		Problem3 p3 = new Problem3(); 
+		p3.URLify(input,13);
+		String str = input.toString(); 
+		System.out.println(str);
 	}
 }
