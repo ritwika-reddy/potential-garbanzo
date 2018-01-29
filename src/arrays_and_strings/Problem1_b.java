@@ -27,7 +27,9 @@ public class Problem1_b {
 	
 	/* 
 	 * The idea is simple really, when the number of unique elements is small, 
-	 * you can use a bit in an integer to keep track of these elements.
+	 * you can use a bit in an integer to 
+	 * 
+	 * keep track of these elements.
 	 * For the original problem, I think long long integer should be enough 
 	 * to store 2^127 bits
 	 * 
